@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::selection{
+    background-color: #687477;
+    color: #E2C2B3;
+}
+
+body{
+    background-color: #F7F3F5;
+}
+
+#main_table{
+    width: 100%;
+    height: 75px;
+    background-color: #E2C2B3;
+} 
+
+.logo{
+    color: #F7F3F5;
+    font-family: Arial;
+    font-size: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 200px;
+}
+
+.navbar{
+    width: 700px;
+    height: 70px;
+    margin-top: 50px;
+    float: left;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #687477;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.navbar a:hover{
+    color: #F7F3F5;
+}
+
+.sign{
+    width: 215px;
+    height: 50px;
+    margin-right: 100px;
+    float: right;
+    background-color: #403234;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.sign p{
+    text-decoration: none;
+    color: #F7F3F5;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 16px;
+    font-size: 15px; 
+}
+
+.sign a{
+    text-decoration: none;
+    color: #E2C2B3;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: 15px;
+}
+
+.sign a:hover{
+    color: #F7F3F5;
+}
+
+table:not(.exclude_style){
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+table{
+    font-family: Marcopolo;
+    text-decoration-color: #403234;
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    width: 125px;
+    height: 40px;
+    border: 0px;
+    border-radius: 30px;
+    background: #403234;
+    font-size: 18px;
+    color: #F7F3F5;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background: #687477;
+}
+
+th{
+    font-size: 18px;
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.about a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.about a:hover{
+    color: #687477;
+}
+
+.endbar{
+    width: 300px;
+    float: left;
+}
+
+.endbar a{
+    float: left;
+    margin-left: 40px;
+}
+
+form{
+    background-color: #E2C2B3;
+    border-radius: 30px;
+    width: 450px;
+    padding: 40px;
+}
+
+form h1{
+    color: #403234;
+    font-family: Arial;
+    margin-bottom: 40px;
+}
+
+#formtable td{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Arial;
+    color: #403234;
+}
+
+#formtable td input{
+    width: 350px;
+    height: 40px;
+    border: #F7F3F5;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.error{
+    background: #c04c4c;
+    color: #F7F3F5;
+    padding-top: 17px;
+    height: 35px;
+    width: 250px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#div1{
+    float: left;
+}
